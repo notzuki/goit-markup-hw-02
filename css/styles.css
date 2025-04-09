@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: #ffffff;
 }
 
 
@@ -141,6 +142,10 @@ button {
   color: #434455;
 }
 
+.team-item {
+  background-color: #ffffff;
+}
+
 
 .portfolio-name {
   font-size: 20px;
@@ -157,6 +162,9 @@ button {
   color: #434455;
 }
 
+.portfolio-item {
+  background-color: #ffffff;
+}
 
 .footer {
   background-color: #2e2f42;
