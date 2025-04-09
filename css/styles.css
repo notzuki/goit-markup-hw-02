@@ -26,7 +26,6 @@ button {
   cursor: pointer;
 }
 
-
 .header {
   background-color: #ffffff;
 }
@@ -46,7 +45,6 @@ button {
 }
 
 .nav-list {
-  display: flex;
   gap: 40px;
 }
 
@@ -66,11 +64,6 @@ button {
   font-style: normal;
 }
 
-.contact-list {
-  display: flex;
-  gap: 40px;
-}
-
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
@@ -82,7 +75,6 @@ button {
 .contact-link:focus {
   color: #404bbf;
 }
-
 
 .hero-section {
   background-color: #2e2f42;
@@ -107,8 +99,6 @@ button {
   letter-spacing: 0.04em;
   padding: 16px 32px;
   border: none;
-  border-radius: 4px;
-  transition: background-color 250ms ease;
 }
 
 .hero-btn:hover,
@@ -116,18 +106,15 @@ button {
   background-color: #404bbf;
 }
 
-
 .features-section {
   padding: 120px 0;
 }
 
-.features-title {
-  display: none;
+.features-list {
+  gap: 24px;
 }
 
-.features-list {
-  display: flex;
-  gap: 24px;
+.features-item {
 }
 
 .features-subtitle {
@@ -143,8 +130,8 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
-
 
 .team-section {
   background-color: #f4f4fd;
@@ -162,15 +149,12 @@ button {
 }
 
 .team-list {
-  display: flex;
   gap: 24px;
-  justify-content: center;
 }
 
 .team-item {
   background-color: #ffffff;
   text-align: center;
-  padding-bottom: 32px;
 }
 
 .team-name {
@@ -189,21 +173,16 @@ button {
   color: #434455;
 }
 
-
 .portfolio-section {
   padding: 120px 0;
 }
 
 .portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
   gap: 24px;
-  justify-content: center;
 }
 
 .portfolio-item {
   background-color: #ffffff;
-  width: calc((100% - 48px) / 3);
   border: 1px solid #e7e9fc;
 }
 
@@ -223,7 +202,6 @@ button {
   color: #434455;
   margin: 0 16px 32px;
 }
-
 
 .footer {
   background-color: #2e2f42;
@@ -246,7 +224,6 @@ button {
 }
 
 .footer-text {
-  max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
