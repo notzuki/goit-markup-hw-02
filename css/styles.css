@@ -4,7 +4,6 @@ body {
   background-color: #ffffff;
 }
 
-
 a {
   text-decoration: none;
   color: inherit;
@@ -25,7 +24,6 @@ button {
   cursor: pointer;
   border: none;
 }
-
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -70,7 +68,6 @@ button {
   color: #404bbf;
 }
 
-
 .hero-section {
   background-color: #2e2f42;
 }
@@ -97,7 +94,6 @@ button {
   background-color: #404bbf;
 }
 
-
 .features-subtitle {
   font-size: 20px;
   font-weight: 500;
@@ -112,7 +108,6 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
 
 .team-section {
   background-color: #f4f4fd;
@@ -145,7 +140,6 @@ button {
 .team-item {
   background-color: #ffffff;
 }
-
 
 .portfolio-name {
   font-size: 20px;
