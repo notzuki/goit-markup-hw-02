@@ -26,7 +26,7 @@ button {
   cursor: pointer;
 }
 
-/* ===== HEADER ===== */
+
 .header {
   background-color: #ffffff;
 }
@@ -83,7 +83,7 @@ button {
   color: #404bbf;
 }
 
-/* ===== HERO ===== */
+
 .hero-section {
   background-color: #2e2f42;
   padding: 120px 0;
@@ -116,7 +116,7 @@ button {
   background-color: #404bbf;
 }
 
-/* ===== FEATURES ===== */
+
 .features-section {
   padding: 120px 0;
 }
@@ -145,7 +145,7 @@ button {
   letter-spacing: 0.02em;
 }
 
-/* ===== TEAM ===== */
+
 .team-section {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -189,7 +189,7 @@ button {
   color: #434455;
 }
 
-/* ===== PORTFOLIO ===== */
+
 .portfolio-section {
   padding: 120px 0;
 }
@@ -224,7 +224,7 @@ button {
   margin: 0 16px 32px;
 }
 
-/* ===== FOOTER ===== */
+
 .footer {
   background-color: #2e2f42;
   color: #ffffff;
