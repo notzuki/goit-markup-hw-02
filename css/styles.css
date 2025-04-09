@@ -2,24 +2,25 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
-    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:hover,
+  a:focus {
+    color: #404bbf;
   }
   
   address a {
-    color: #434455;
-    text-decoration: none;
-    transition: color 250ms ease-in-out;
-  }
-  
-  address a:hover,
-  address a:focus {
-    color: #404bbf;
+    transition: color 250ms ease;
   }
   
   button {
     font-family: inherit;
     cursor: pointer;
-    transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
   }
   
   .portfolio {
@@ -64,27 +65,4 @@ body {
     color: inherit;
   }
   
-  .portfolio-item img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .portfolio-text-wrap {
-    padding: 32px 16px;
-  }
-  
-  .portfolio-item-title {
-    font-size: 20px;
-    line-height: 1.2;
-    font-weight: 500;
-    color: #2e2f42;
-    margin-bottom: 8px;
-  }
-  
-  .portfolio-item-desc {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
-  }
   
